@@ -127,12 +127,15 @@
             </div>
             <div class="col-4">
                 <h1>About Us</h1>
-                <p>Lorem ipsum dolor, sit amet <span class="font-rubik-bubbles">consectetur</span> <span
-                        class="font-rubik-bubbles">adipisicing</span>
-                    elit. Omnis autem, a illo nisi placeat in, tenetur <span
-                        class="font-rubik-bubbles">cupiditate</span>, sequi
+                <p>Lorem ipsum dolor, sit amet <span class="font-rubik-bubbles" data-toggle="tooltip"
+                        data-placement="top" title="tooltip_text">consectetur</span>
+                    <span class="font-rubik-bubbles" data-toggle="tooltip" data-placement="top"
+                        title="tooltip_text">adipisicing</span>
+                    elit. Omnis autem, a illo nisi placeat in, tenetur <span class="font-rubik-bubbles"
+                        data-toggle="tooltip" data-placement="top" title="tooltip_text">cupiditate</span>, sequi
                     aperiam
-                    deserunt eum. Ut vel veritatis quasi enim possimus at ab tempora.</p>
+                    deserunt eum. Ut vel veritatis quasi enim possimus at ab tempora.
+                </p>
             </div>
         </div>
     </section>
@@ -296,6 +299,10 @@
         $(window).on('load', function () {
             $('#cookies').modal('show');
         });
+
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
 
     </script>
 </body>
