@@ -4,8 +4,8 @@ nav > * {
 
 .b-img {
     background: url("../img/chuttersnap-BNBA1h-NgdY-unsplash.jpg") no-repeat 50% 50%;
-    height: 25rem;
-    padding-top: 4rem;
+    max-height: 25rem;
+    padding-top: 8rem;
 }
 /* White text on first img */
 .b-img > * {
@@ -13,10 +13,12 @@ nav > * {
 }
 
 
-.aspect-ratio {
+/* .aspect-ratio {
     max-height: 15rem ;
-    aspect-ratio: 16/9;
-}
+    width: 100%;
+    max-width: 700px; */
+    /* aspect-ratio: 16/9; */
+/* } */
 
 .font-rubik-bubbles {
     font-family: 'Rubik Bubbles', cursive;
