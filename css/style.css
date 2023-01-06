@@ -1,0 +1,26 @@
+nav > * {
+    color: azure !important;
+}
+
+.b-img {
+    background: url("../img/chuttersnap-BNBA1h-NgdY-unsplash.jpg") no-repeat 50% 50%;
+    height: 25rem;
+}
+/* White text on first img */
+.b-img > * {
+    color: azure !important;
+}
+
+
+.aspect-ratio {
+    max-height: 15rem ;
+    aspect-ratio: 16/9;
+}
+
+.font-rubik-bubbles {
+    font-family: 'Rubik Bubbles', cursive;
+}
+
+section {
+    overflow: hidden;
+}
