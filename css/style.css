@@ -5,6 +5,7 @@ nav > * {
 .b-img {
     background: url("../img/chuttersnap-BNBA1h-NgdY-unsplash.jpg") no-repeat 50% 50%;
     height: 25rem;
+    padding-top: 4rem;
 }
 /* White text on first img */
 .b-img > * {
